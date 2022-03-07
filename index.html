@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./js/main.js">
+    <link rel="stylesheet" href="./js/bootstrap.js">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="icon" href="images/Africa.JPEG" type="img/JPEG">
+    <title>Document</title>
+</head>
+<body>
+<header>
+  <div class="nav-bar">
+    <div class="nav-text" id="nav-text">Akan</div>
+    <div class="logo"><img src="images/Africa.png" alt=""></div>
+    <div class="nav-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Akan_names">Background</a> </li>
+            <li><a href="https://en.wikipedia.org/wiki/Akan_names">Naming</a> </li>
+            <li><a href="https://en.wikipedia.org/wiki/Akan_names">Learn More</a></li>
+        </ul>
+    </div>
+ </div>
+
+        <div class="jumbotron">
+          <h1>Akan Names</h1>      
+          <p>This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.</p>
+        </div>
+      <div class="content">
+       <div class="container">
+         <p>
+           Kindly fill the form below to check your Akan Name:
+         </p>
+         <!-- form -->
+         <form class="form"  id="form">
+         <label for="year">
+         Year of Birth:
+         <input name="year" type="text" id="year" placeholder="YYYY" value="" required> <br> <br> <br>
+        </label>
+        <label for="month">
+         Month of Birth:
+         <input name="month" type="text" id="month" placeholder="MM" value="" required> <br> <br> <br>
+        </label>
+        <label for="date">
+         Date of Birth
+         <input name="date" type="text" id="date" placeholder="DD" value="" required> <br> <br> <br>
+         </label>
+         <br><br>
+
+          <!-- gender form -->
+       <p>Select Your Gender</p>
+       <div class="gender">
+        <p>Gender</p>
+         <label for="male">
+         <span>male</span>
+         <input type="radio" name="gender" value="male"  id="male"/>
+         </label>
+          <label for="female">
+         <span>female</span>
+         <input type="radio" name="gender" value="female" id="female" />
+         </label>  <br> 
+          <!-- Submit -->
+         <input type="submit" value="submit" id="get-name">
+         <!-- clear output --> 
+         <button onclick="clearInput()">        
+         <input type="submit" id="submit" value="Reset"> 
+        </button>
+        </form>
+        <!-- display of Akan Name -->
+        <p id="invalidDate"></p>
+        <p id = display-name><strong>Your Akan name is:</strong></p>
+        <p id="result"></p>
+       </div>
+      </div>
+      
+       
+</header>
+
+
+ <script src="js/main.js"></script>
+
+</body>
+<!-- Footer -->
+<footer class="page-footer font-small blue" id="footer">
+  <div class="footer-copyright text-center py-3">
+  <!-- Copyright -->
+    <a href="#"> Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website is designed by Chepngetich Edah</a></a>
+  </div>
+
+
+</footer>
+<!-- Footer -->
+
+<!-- <footer id="footer">
+  <p>
+    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website is designed by Chepngetich Edah</a>
+    </p>
+</footer> -->
+
+</html>

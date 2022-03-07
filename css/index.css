@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-image: url(../images/bc1.jpg); 
+    background-repeat: no-repeat;
+    height: 50vh;
+} 
+ .logo{
+    margin-right: 50%;
+}
+ .container{
+     font-size: large;
+     
+    /* background-image: url(images/bc.jpg);
+    background-image: url(images/bc.jpg);
+    background-image: url(../images/bc.jpg); */
+}
+
+.nav-text{
+    font-family: "Sofia", sans-serif;
+    font-size: large;
+    font-weight: 800;
+} 
+
+.logo img{
+    width: 15%;
+    /* height: 10%; */
+}
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    height: 25px;
+    justify-content: space-between;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* padding: -10%; */
+}
+.nav-menu{
+    align-items: center;
+    margin-right: 10%;
+    justify-content: space-between;
+}
+
+.nav-menu li{
+   margin-right: -4%;
+   justify-content: space-between;
+   /* width: 100%; */
+}
+
+.nav-bar .nav-text{
+    padding-left: -10%;
+}
+
+.nav-menu ul li{
+    display: inline-block;
+    list-style-type: square;
+    align-items: center;
+    text-decoration: none;
+    padding: 0% 15px 0px 15px;
+    justify-content: center;
+    /* margin-right: 5%; */
+}
+
+.nav-menu ul li a{
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+    /* padding: 0% 5% 5% 0%; */
+}
+
+.nav-menu ul li a:hover{
+    color: crimson;
+    
+}
+.container{
+    color: black;
+    /* background-color: palevioletred; */
+}
+
+#footer{
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+    margin-top: 12%;
+    /* background-color: brown; */
+}
+
+/* media queries */
+@media only screen and (max-width: 760px) {
+    body {
+      background-color: lightblue;
+    }
+
+    /* .container{
+        width: 80%;
+        margin: auto;
+      }
+       */
+  }
+
+  #invalidDate{
+      font-size:18px;
+      color: red;
+  }

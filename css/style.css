@@ -1,0 +1,11 @@
+.jumbotron hi{
+    color: yellow;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    color: rgb(29, 25, 25);
+    background-color: #17c5c5;
+    margin-top: 10%;
+}
